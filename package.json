@@ -4,6 +4,7 @@
     "version": "0.0.1",
     "private": true,
     "dependencies": {
+        "node-red": "^4.0.3",
         "node-red-dashboard": "~3.6.5",
         "node-red-node-arduino": "~1.0.0",
         "node-red-node-serialport": "~2.0.3"
