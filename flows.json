@@ -1,14 +1,6 @@
 [
     {
-        "id": "08a3a1587104d90d",
-        "type": "tab",
-        "label": "플로우 1",
-        "disabled": false,
-        "info": "",
-        "env": []
-    },
-    {
-        "id": "a1be96005997a8fa",
+        "id": "3efdd6c7ec92ccb2",
         "type": "tab",
         "label": "mqtt DB_Protocol",
         "disabled": false,
@@ -16,14 +8,14 @@
         "env": []
     },
     {
-        "id": "e1cffb304c03913b",
+        "id": "2fa83399a0b11391",
         "type": "tab",
         "label": "mqtt DB300_Settings",
         "disabled": false,
         "info": ""
     },
     {
-        "id": "2a9a8d62d9b04274",
+        "id": "c57ee5e6df58f697",
         "type": "tab",
         "label": "mqtt DB300_Search",
         "disabled": false,
@@ -31,7 +23,7 @@
         "env": []
     },
     {
-        "id": "12800aedfb3e9dd3",
+        "id": "7db4cad2bb629dbe",
         "type": "tab",
         "label": "serial DB300_Search",
         "disabled": false,
@@ -39,209 +31,31 @@
         "env": []
     },
     {
-        "id": "0c0a08caf8548fbf",
+        "id": "c69d424d21b653c5",
         "type": "tab",
         "label": "serial DB300_Settings",
         "disabled": false,
         "info": ""
     },
     {
-        "id": "b768ef8a2dd5a7c3",
-        "type": "ui_base",
-        "theme": {
-            "name": "theme-custom",
-            "lightTheme": {
-                "default": "#0094CE",
-                "baseColor": "#0094CE",
-                "baseFont": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif",
-                "edited": true,
-                "reset": false
-            },
-            "darkTheme": {
-                "default": "#097479",
-                "baseColor": "#097479",
-                "baseFont": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif",
-                "edited": true,
-                "reset": false
-            },
-            "customTheme": {
-                "name": "Untitled Theme 1",
-                "default": "#4B7930",
-                "baseColor": "#4B7930",
-                "baseFont": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif",
-                "reset": false
-            },
-            "themeState": {
-                "base-color": {
-                    "default": "#4B7930",
-                    "value": "#4B7930",
-                    "edited": false
-                },
-                "page-titlebar-backgroundColor": {
-                    "value": "#4B7930",
-                    "edited": false
-                },
-                "page-backgroundColor": {
-                    "value": "#111111",
-                    "edited": false
-                },
-                "page-sidebar-backgroundColor": {
-                    "value": "#333333",
-                    "edited": false
-                },
-                "group-textColor": {
-                    "value": "#6db046",
-                    "edited": false
-                },
-                "group-borderColor": {
-                    "value": "#555555",
-                    "edited": false
-                },
-                "group-backgroundColor": {
-                    "value": "#333333",
-                    "edited": false
-                },
-                "widget-textColor": {
-                    "value": "#eeeeee",
-                    "edited": false
-                },
-                "widget-backgroundColor": {
-                    "value": "#4b7930",
-                    "edited": false
-                },
-                "widget-borderColor": {
-                    "value": "#333333",
-                    "edited": false
-                },
-                "base-font": {
-                    "value": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif"
-                }
-            },
-            "angularTheme": {
-                "primary": "indigo",
-                "accents": "blue",
-                "warn": "red",
-                "background": "grey",
-                "palette": "light"
-            }
-        },
-        "site": {
-            "name": "Node-RED Dashboard",
-            "hideToolbar": "false",
-            "allowSwipe": "false",
-            "lockMenu": "false",
-            "allowTempTheme": "true",
-            "dateFormat": "DD/MM/YYYY",
-            "sizes": {
-                "sx": 120,
-                "sy": 50,
-                "gx": 6,
-                "gy": 6,
-                "cx": 6,
-                "cy": 6,
-                "px": 0,
-                "py": 0
-            }
-        }
-    },
-    {
-        "id": "17efb03470e88afb",
-        "type": "ui_tab",
-        "name": "도로교통관리공단",
-        "icon": "dashboard",
-        "disabled": false,
-        "hidden": false
-    },
-    {
-        "id": "uiGroup",
-        "type": "ui_group",
-        "name": "DB300 MqttNet",
-        "tab": "17efb03470e88afb",
-        "order": 1,
-        "disp": true,
-        "width": "6",
-        "collapse": false,
-        "className": ""
-    },
-    {
-        "id": "5f6eed1ea3e92b6a",
-        "type": "mqtt-broker",
-        "name": "io.adafruit.com",
-        "broker": "io.adafruit.com",
-        "port": "1883",
-        "clientid": "",
-        "autoConnect": true,
-        "usetls": false,
-        "compatmode": false,
-        "protocolVersion": "4",
-        "keepalive": "60",
-        "cleansession": true,
-        "autoUnsubscribe": true,
-        "birthTopic": "",
-        "birthQos": "0",
-        "birthPayload": "",
-        "birthMsg": {},
-        "closeTopic": "",
-        "closeQos": "0",
-        "closePayload": "",
-        "closeMsg": {},
-        "willTopic": "",
-        "willQos": "0",
-        "willPayload": "",
-        "willMsg": {},
-        "userProps": "",
-        "sessionExpiry": ""
-    },
-    {
-        "id": "f6b360b3db0f01f7",
-        "type": "ui_group",
-        "name": "DB300 AscII Protocol",
-        "tab": "b1622eeae64649ed",
-        "order": 2,
-        "disp": true,
-        "width": "6",
-        "collapse": false,
-        "className": ""
-    },
-    {
-        "id": "b1622eeae64649ed",
-        "type": "ui_tab",
-        "name": "도로교통관리공단",
-        "icon": "dashboard",
-        "disabled": false,
-        "hidden": false
-    },
-    {
-        "id": "1e5c84ba9e9ee753",
-        "type": "ui_group",
-        "name": "DB300 MqttNet",
-        "tab": "b1622eeae64649ed",
-        "order": 1,
-        "disp": true,
-        "width": "6",
-        "collapse": false,
-        "className": ""
-    },
-    {
-        "id": "82790d9990f7d47b",
-        "type": "mqtt-broker",
-        "name": "io.adafruit.com",
-        "broker": "io.adafruit.com",
-        "port": "1883",
-        "clientid": "",
-        "autoConnect": true,
-        "usetls": false,
-        "compatmode": false,
-        "protocolVersion": "4",
-        "keepalive": "60",
-        "cleansession": true,
-        "autoUnsubscribe": true,
-        "birthTopic": "",
-        "birthQos": "0",
-        "birthPayload": "",
-        "willTopic": "",
-        "willQos": "0",
-        "willPayload": ""
+        "id": "ba402f83e78daed1",
+        "type": "serial-port",
+        "name": "",
+        "serialport": "COM1",
+        "serialbaud": "115200",
+        "databits": "8",
+        "parity": "none",
+        "stopbits": "1",
+        "waitfor": "",
+        "dtr": "none",
+        "rts": "none",
+        "cts": "none",
+        "dsr": "none",
+        "newline": "\\n",
+        "bin": "false",
+        "out": "char",
+        "addchar": "",
+        "responsetimeout": "10000"
     },
     {
         "id": "8afb059a.9e82f8",
@@ -312,31 +126,11 @@
         "sessionExpiry": ""
     },
     {
-        "id": "ba402f83e78daed1",
-        "type": "serial-port",
-        "name": "",
-        "serialport": "COM1",
-        "serialbaud": "115200",
-        "databits": "8",
-        "parity": "none",
-        "stopbits": "1",
-        "waitfor": "",
-        "dtr": "none",
-        "rts": "none",
-        "cts": "none",
-        "dsr": "none",
-        "newline": "\\n",
-        "bin": "false",
-        "out": "char",
-        "addchar": "",
-        "responsetimeout": "10000"
-    },
-    {
         "id": "c5388dab43124f68",
         "type": "ui_tab",
         "name": "MQTT",
         "icon": "dashboard",
-        "order": 3,
+        "order": 1,
         "disabled": false,
         "hidden": false
     },
@@ -380,7 +174,8 @@
                 "default": "#0094CE",
                 "baseColor": "#0094CE",
                 "baseFont": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif",
-                "edited": false
+                "edited": true,
+                "reset": false
             },
             "darkTheme": {
                 "default": "#097479",
@@ -468,9 +263,9 @@
         }
     },
     {
-        "id": "998b744c7ef27504",
+        "id": "3fed98b0ad486157",
         "type": "function",
-        "z": "a1be96005997a8fa",
+        "z": "3efdd6c7ec92ccb2",
         "name": "function",
         "func": "let input = msg.payload;\n\n// JSON 형식으로 msg.payload를 변경\nmsg.payload = {\n    \"db_protocol\": input\n};\n\nreturn msg;\n\n",
         "outputs": 1,
@@ -483,14 +278,14 @@
         "y": 100,
         "wires": [
             [
-                "906f57e33f78900e"
+                "7fc613f9ba9d1862"
             ]
         ]
     },
     {
-        "id": "b051d1ee30652861",
+        "id": "e59cce8271ad4328",
         "type": "ui_text_input",
-        "z": "a1be96005997a8fa",
+        "z": "3efdd6c7ec92ccb2",
         "name": "",
         "label": "송신:",
         "tooltip": "![000실시간문구패킷!]",
@@ -509,14 +304,14 @@
         "y": 100,
         "wires": [
             [
-                "998b744c7ef27504"
+                "3fed98b0ad486157"
             ]
         ]
     },
     {
-        "id": "906f57e33f78900e",
+        "id": "7fc613f9ba9d1862",
         "type": "mqtt out",
-        "z": "a1be96005997a8fa",
+        "z": "3efdd6c7ec92ccb2",
         "name": "",
         "topic": "dabit/feeds/msg",
         "qos": "0",
@@ -532,9 +327,9 @@
         "wires": []
     },
     {
-        "id": "bba7a1eae393261c",
+        "id": "2d1fa502baaacf96",
         "type": "mqtt in",
-        "z": "a1be96005997a8fa",
+        "z": "3efdd6c7ec92ccb2",
         "name": "",
         "topic": "dabit/feeds/msg_r",
         "qos": "0",
@@ -548,15 +343,15 @@
         "y": 180,
         "wires": [
             [
-                "65f21c11facbbcfb",
-                "d1c7d51a3941a01e"
+                "1067e66a49aeb95b",
+                "df1e52b1df052e40"
             ]
         ]
     },
     {
-        "id": "65f21c11facbbcfb",
+        "id": "1067e66a49aeb95b",
         "type": "ui_text_input",
-        "z": "a1be96005997a8fa",
+        "z": "3efdd6c7ec92ccb2",
         "name": "",
         "label": "수신: ",
         "tooltip": "",
@@ -578,9 +373,9 @@
         ]
     },
     {
-        "id": "baefc9e874847cf1",
+        "id": "8dab2be5d965f51a",
         "type": "ui_dropdown",
-        "z": "a1be96005997a8fa",
+        "z": "3efdd6c7ec92ccb2",
         "name": "",
         "label": "전광판 문구및 제어명령",
         "tooltip": "",
@@ -641,14 +436,14 @@
         "y": 100,
         "wires": [
             [
-                "b051d1ee30652861"
+                "e59cce8271ad4328"
             ]
         ]
     },
     {
-        "id": "d1c7d51a3941a01e",
+        "id": "df1e52b1df052e40",
         "type": "debug",
-        "z": "a1be96005997a8fa",
+        "z": "3efdd6c7ec92ccb2",
         "name": "Debug Output",
         "active": true,
         "tosidebar": true,
@@ -663,9 +458,9 @@
         "wires": []
     },
     {
-        "id": "5842335597b10ad7",
+        "id": "1c98f7da0cb46ea5",
         "type": "mqtt in",
-        "z": "e1cffb304c03913b",
+        "z": "2fa83399a0b11391",
         "name": "MQTT Input",
         "topic": "dabit/feeds/sch_r",
         "qos": "0",
@@ -679,14 +474,14 @@
         "y": 100,
         "wires": [
             [
-                "88fbb1259a36029e"
+                "c742022a58ee9fc3"
             ]
         ]
     },
     {
-        "id": "88fbb1259a36029e",
+        "id": "c742022a58ee9fc3",
         "type": "function",
-        "z": "e1cffb304c03913b",
+        "z": "2fa83399a0b11391",
         "name": "Store MAC Addresses",
         "func": "var devices = flow.get('devices') || [];\nvar newDevice = {\n    mac: msg.payload.mac,\n    data: msg.payload\n};\n\n// MAC 주소가 이미 저장되어 있는지 확인\nvar exists = devices.some(device => device.mac === newDevice.mac);\nif (!exists) {\n    devices.push(newDevice);\n    flow.set('devices', devices);\n}\n\n// MAC 주소 목록을 ui_template로 전달\nmsg.payload = devices.map(device => device.mac);\nreturn msg;",
         "outputs": 1,
@@ -699,14 +494,14 @@
         "y": 100,
         "wires": [
             [
-                "107b50b25d9f6b11"
+                "3450a41cc9293521"
             ]
         ]
     },
     {
-        "id": "107b50b25d9f6b11",
+        "id": "3450a41cc9293521",
         "type": "ui_template",
-        "z": "e1cffb304c03913b",
+        "z": "2fa83399a0b11391",
         "group": "e434f41b1ee8faf4",
         "name": "MAC Address List",
         "order": 2,
@@ -722,14 +517,14 @@
         "y": 180,
         "wires": [
             [
-                "4df8d1c0d8e01547"
+                "59fba32b7c998fa7"
             ]
         ]
     },
     {
-        "id": "dab4d3107ade92f1",
+        "id": "e5c6ca03ef84971c",
         "type": "ui_form",
-        "z": "e1cffb304c03913b",
+        "z": "2fa83399a0b11391",
         "name": "MQTT Input Form",
         "label": "송신: DB300 MQTT Settings",
         "group": "e434f41b1ee8faf4",
@@ -807,14 +602,14 @@
         "y": 180,
         "wires": [
             [
-                "80cd5db4b9c2e834"
+                "b691f0958442eb9a"
             ]
         ]
     },
     {
-        "id": "80cd5db4b9c2e834",
+        "id": "b691f0958442eb9a",
         "type": "function",
-        "z": "e1cffb304c03913b",
+        "z": "2fa83399a0b11391",
         "name": "Prepare MQTT Message",
         "func": "var name = msg.payload.name;\nvar mac = msg.payload.mac;\nvar server = msg.payload.server;\nvar port = msg.payload.port;\nvar user = msg.payload.user;\nvar pass = msg.payload.pass;\nvar led = msg.payload.led;\n\n// 데이터를 JSON 형식으로 구성\nvar data = {\n    name: name,\n    mac: mac,\n    server: server,\n    port: port,\n    user: user,\n    pass: pass,\n    led: led\n};\n\n// JSON 형식으로 변환\nmsg.payload = JSON.stringify(data);\n\n// 결과 메시지 반환\nreturn msg;",
         "outputs": 1,
@@ -827,14 +622,14 @@
         "y": 280,
         "wires": [
             [
-                "b3e8fab4e072aca7"
+                "c28964a740f36a7d"
             ]
         ]
     },
     {
-        "id": "b3e8fab4e072aca7",
+        "id": "c28964a740f36a7d",
         "type": "mqtt out",
-        "z": "e1cffb304c03913b",
+        "z": "2fa83399a0b11391",
         "name": "MQTT Publish",
         "topic": "dabit/feeds/set",
         "qos": "0",
@@ -850,9 +645,9 @@
         "wires": []
     },
     {
-        "id": "52d8d6069a06279d",
+        "id": "668d496db3c254a8",
         "type": "ui_button",
-        "z": "e1cffb304c03913b",
+        "z": "2fa83399a0b11391",
         "name": "Clear MAC List",
         "group": "e434f41b1ee8faf4",
         "order": 4,
@@ -873,14 +668,14 @@
         "y": 340,
         "wires": [
             [
-                "bb5f2d081a6733df"
+                "b22ec398de6b291a"
             ]
         ]
     },
     {
-        "id": "bb5f2d081a6733df",
+        "id": "b22ec398de6b291a",
         "type": "function",
-        "z": "e1cffb304c03913b",
+        "z": "2fa83399a0b11391",
         "name": "Clear MAC Addresses List",
         "func": "// flow에 저장된 devices 리스트 초기화\nflow.set('devices', []);\n\n// MAC 리스트를 비우기 위해 빈 배열 전송\nmsg.payload = [];\nreturn msg;",
         "outputs": 1,
@@ -893,14 +688,14 @@
         "y": 260,
         "wires": [
             [
-                "107b50b25d9f6b11"
+                "3450a41cc9293521"
             ]
         ]
     },
     {
-        "id": "4df8d1c0d8e01547",
+        "id": "59fba32b7c998fa7",
         "type": "function",
-        "z": "e1cffb304c03913b",
+        "z": "2fa83399a0b11391",
         "name": "Load Selected Device Data",
         "func": "var devices = flow.get('devices') || [];\nvar selectedMac = msg.payload;\n\nvar selectedDevice = devices.find(device => device.mac === selectedMac);\nif (selectedDevice) {\n    // 폼을 초기화하기 위해 reset 메시지 전송\n    node.send({ reset: true });\n\n    // 약간의 지연 후 새로운 데이터를 전송\n    setTimeout(function () {\n        node.send({ payload: selectedDevice.data });\n    }, 100); // 100ms 지연 (필요에 따라 조정 가능)\n} else {\n    node.send({ reset: true });\n}\n\nreturn null; // 이미 메시지를 전송했으므로 null 반환",
         "outputs": 1,
@@ -913,14 +708,14 @@
         "y": 180,
         "wires": [
             [
-                "dab4d3107ade92f1"
+                "e5c6ca03ef84971c"
             ]
         ]
     },
     {
-        "id": "5c95d7474ac38280",
+        "id": "4411d23e066e2b7c",
         "type": "ui_button",
-        "z": "2a9a8d62d9b04274",
+        "z": "c57ee5e6df58f697",
         "name": "",
         "group": "e434f41b1ee8faf4",
         "order": 1,
@@ -941,14 +736,14 @@
         "y": 140,
         "wires": [
             [
-                "8dd95476338984c0"
+                "0973178724cd5183"
             ]
         ]
     },
     {
-        "id": "8dd95476338984c0",
+        "id": "0973178724cd5183",
         "type": "mqtt out",
-        "z": "2a9a8d62d9b04274",
+        "z": "c57ee5e6df58f697",
         "name": "MQTT Publish",
         "topic": "dabit/feeds/sch",
         "qos": "0",
@@ -964,9 +759,9 @@
         "wires": []
     },
     {
-        "id": "99ac6c5048a1dcd6",
+        "id": "8447a2ff4f8de101",
         "type": "ui_button",
-        "z": "12800aedfb3e9dd3",
+        "z": "7db4cad2bb629dbe",
         "name": "",
         "group": "4fd1d76d70a6b2c0",
         "order": 1,
@@ -987,14 +782,14 @@
         "y": 140,
         "wires": [
             [
-                "fe29a856b20d9bb2"
+                "8393d81ef0d59c7a"
             ]
         ]
     },
     {
-        "id": "d8d0784a25cbc1cf",
+        "id": "a1fc71c4270d7faa",
         "type": "serial out",
-        "z": "12800aedfb3e9dd3",
+        "z": "7db4cad2bb629dbe",
         "name": "",
         "serial": "ba402f83e78daed1",
         "x": 610,
@@ -1002,9 +797,9 @@
         "wires": []
     },
     {
-        "id": "fe29a856b20d9bb2",
+        "id": "8393d81ef0d59c7a",
         "type": "function",
-        "z": "12800aedfb3e9dd3",
+        "z": "7db4cad2bb629dbe",
         "name": "function 1",
         "func": "msg.payload = msg.topic + JSON.stringify(msg.payload);\nreturn msg;\n",
         "outputs": 1,
@@ -1017,14 +812,14 @@
         "y": 140,
         "wires": [
             [
-                "d8d0784a25cbc1cf"
+                "a1fc71c4270d7faa"
             ]
         ]
     },
     {
-        "id": "3ebe872513aa4dd3",
+        "id": "cd68ef24ef01523f",
         "type": "function",
-        "z": "0c0a08caf8548fbf",
+        "z": "c69d424d21b653c5",
         "name": "Store MAC Addresses",
         "func": "var devices = flow.get('devices') || [];\nvar newDevice = {\n    mac: msg.payload.mac,\n    data: msg.payload\n};\n\n// MAC 주소가 이미 저장되어 있는지 확인\nvar exists = devices.some(device => device.mac === newDevice.mac);\nif (!exists) {\n    devices.push(newDevice);\n    flow.set('devices', devices);\n}\n\n// MAC 주소 목록을 ui_template로 전달\nmsg.payload = devices.map(device => device.mac);\nreturn msg;",
         "outputs": 1,
@@ -1037,14 +832,14 @@
         "y": 100,
         "wires": [
             [
-                "4988e02f595cc6b0"
+                "4af9bfee291f0681"
             ]
         ]
     },
     {
-        "id": "4988e02f595cc6b0",
+        "id": "4af9bfee291f0681",
         "type": "ui_template",
-        "z": "0c0a08caf8548fbf",
+        "z": "c69d424d21b653c5",
         "group": "4fd1d76d70a6b2c0",
         "name": "MAC Address List",
         "order": 2,
@@ -1060,14 +855,14 @@
         "y": 180,
         "wires": [
             [
-                "6c05783cd6a401fd"
+                "0f2f5eb5c8758b54"
             ]
         ]
     },
     {
-        "id": "33fcd6c5c56f7776",
+        "id": "8c20919270cc826b",
         "type": "ui_form",
-        "z": "0c0a08caf8548fbf",
+        "z": "c69d424d21b653c5",
         "name": "MQTT Input Form",
         "label": "송신: DB300 MQTT Settings",
         "group": "4fd1d76d70a6b2c0",
@@ -1145,14 +940,14 @@
         "y": 180,
         "wires": [
             [
-                "f3f0465d663bdcf0"
+                "2f253610749c827d"
             ]
         ]
     },
     {
-        "id": "f3f0465d663bdcf0",
+        "id": "2f253610749c827d",
         "type": "function",
-        "z": "0c0a08caf8548fbf",
+        "z": "c69d424d21b653c5",
         "name": "Prepare MQTT Message",
         "func": "var name = msg.payload.name;\nvar mac = msg.payload.mac;\nvar server = msg.payload.server;\nvar port = msg.payload.port;\nvar user = msg.payload.user;\nvar pass = msg.payload.pass;\nvar led = msg.payload.led;\n\n// 데이터를 JSON 형식으로 구성\nvar data = {\n    name: name,\n    mac: mac,\n    server: server,\n    port: port,\n    user: user,\n    pass: pass,\n    led: led\n};\n\n// JSON 형식으로 변환\nmsg.payload = msg.topic + JSON.stringify(data);\n\n// 결과 메시지 반환\nreturn msg;",
         "outputs": 1,
@@ -1165,15 +960,15 @@
         "y": 280,
         "wires": [
             [
-                "1ecb5d093e9d5609",
-                "621f8b061dbb5e23"
+                "f89c8d441b8f77fc",
+                "18ac3e3f42ee21f6"
             ]
         ]
     },
     {
-        "id": "1ecb5d093e9d5609",
+        "id": "f89c8d441b8f77fc",
         "type": "serial out",
-        "z": "0c0a08caf8548fbf",
+        "z": "c69d424d21b653c5",
         "name": "",
         "serial": "ba402f83e78daed1",
         "x": 730,
@@ -1181,9 +976,9 @@
         "wires": []
     },
     {
-        "id": "6c05783cd6a401fd",
+        "id": "0f2f5eb5c8758b54",
         "type": "function",
-        "z": "0c0a08caf8548fbf",
+        "z": "c69d424d21b653c5",
         "name": "Load Selected Device Data",
         "func": "var devices = flow.get('devices') || [];\nvar selectedMac = msg.payload;\n\nvar selectedDevice = devices.find(device => device.mac === selectedMac);\nif (selectedDevice) {\n    // 폼을 초기화하기 위해 reset 메시지 전송\n    node.send({ reset: true });\n\n    // 약간의 지연 후 새로운 데이터를 전송\n    setTimeout(function () {\n        node.send({ payload: selectedDevice.data });\n    }, 100); // 100ms 지연 (필요에 따라 조정 가능)\n} else {\n    node.send({ reset: true });\n}\n\nreturn null; // 이미 메시지를 전송했으므로 null 반환\n\n",
         "outputs": 1,
@@ -1196,14 +991,14 @@
         "y": 180,
         "wires": [
             [
-                "33fcd6c5c56f7776"
+                "8c20919270cc826b"
             ]
         ]
     },
     {
-        "id": "bcf00d0aa534c7a6",
+        "id": "0a27bae221b6eff8",
         "type": "ui_button",
-        "z": "0c0a08caf8548fbf",
+        "z": "c69d424d21b653c5",
         "name": "Clear MAC List",
         "group": "4fd1d76d70a6b2c0",
         "order": 4,
@@ -1224,14 +1019,14 @@
         "y": 340,
         "wires": [
             [
-                "7b1e1fc40633f23d"
+                "dd5162616d393959"
             ]
         ]
     },
     {
-        "id": "7b1e1fc40633f23d",
+        "id": "dd5162616d393959",
         "type": "function",
-        "z": "0c0a08caf8548fbf",
+        "z": "c69d424d21b653c5",
         "name": "Clear MAC Addresses List",
         "func": "// flow에 저장된 devices 리스트 초기화\nflow.set('devices', []);\n\n// MAC 리스트를 비우기 위해 빈 배열 전송\nmsg.payload = [];\nreturn msg;",
         "outputs": 1,
@@ -1244,28 +1039,28 @@
         "y": 260,
         "wires": [
             [
-                "4988e02f595cc6b0"
+                "4af9bfee291f0681"
             ]
         ]
     },
     {
-        "id": "d93ce855e10ac755",
+        "id": "3a8ddffa282b962b",
         "type": "serial in",
-        "z": "0c0a08caf8548fbf",
+        "z": "c69d424d21b653c5",
         "name": "",
         "serial": "ba402f83e78daed1",
         "x": 70,
         "y": 100,
         "wires": [
             [
-                "1c8dc9bd11637c6b"
+                "c6b769a8a76a4bcc"
             ]
         ]
     },
     {
-        "id": "1c8dc9bd11637c6b",
+        "id": "c6b769a8a76a4bcc",
         "type": "function",
-        "z": "0c0a08caf8548fbf",
+        "z": "c69d424d21b653c5",
         "name": "Parse Serial Input",
         "func": "// 입력된 메시지(payload)를 변수에 저장\nlet input = msg.payload;\n\n// 토픽과 페이로드를 나누기 위한 분리 기준인 첫 번째 \"{\"의 위치 찾기\nlet splitIndex = input.indexOf('{');\n\n// 토픽과 페이로드 분리\nif (splitIndex !== -1) {\n    // 토픽은 \"{\" 이전의 문자열\n    let topic = input.substring(0, splitIndex);\n    // 페이로드는 \"{\"와 그 이후의 문자열\n    let payload = input.substring(splitIndex);\n\n    // 토픽과 페이로드를 각각 설정\n    msg.topic = topic.trim();  // 공백 제거\n    msg.payload = JSON.parse(payload);  // JSON 형식으로 파싱\n}\n\n// 결과 반환\nreturn msg;\n",
         "outputs": 1,
@@ -1278,14 +1073,14 @@
         "y": 100,
         "wires": [
             [
-                "3ebe872513aa4dd3"
+                "cd68ef24ef01523f"
             ]
         ]
     },
     {
-        "id": "621f8b061dbb5e23",
+        "id": "18ac3e3f42ee21f6",
         "type": "debug",
-        "z": "0c0a08caf8548fbf",
+        "z": "c69d424d21b653c5",
         "name": "Debug Output",
         "active": true,
         "tosidebar": true,
